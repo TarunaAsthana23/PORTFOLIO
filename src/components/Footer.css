@@ -1,38 +1,263 @@
-.footer {
-    background-color: #111;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+
+
+
+
+
+                  /* (320px - 480px) -------- ( Mobile ka normal Size) */
+  /* ✅ Mobile Devices (320px - 480px) */
+
+  @media screen and (max-width: 480px) {
+
+    .footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .footer-links {
+      display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+    gap: 0px;
+    margin: 15px;
+    }
+    
+    .footer-links a {
+      display: flex;
+      gap: 0px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+        justify-content: center;
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+        align-items: center;
+    }
+    
+    .footer-links a:hover {
+      color: #1db954; /* or your accent color */
+    }
+    
+    .footer-copy {
+      font-size: 1.2rem;
+      color: white;
+    } 
   }
-  
-  .footer-content {
-    max-width: 900px;
-    margin: auto;
+
+                  /* (320px - 480px) -------- ( Mobile ka normal Size) */
+  /* ✅ Mobile Devices (320px - 480px) */
+
+
+
+                  /* (481px - 768px) */
+  /* ✅ Tablets & iPads (481px - 768px) */
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .footer-links {
+      display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-around;
+    gap: 0px;
+    margin: 15px;
+    }
+    
+    .footer-links a {
+      display: flex;
+      gap: 0px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+        justify-content: center;
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+        align-items: center;
+    }
+    
+    .footer-links a:hover {
+      color: #1db954; /* or your accent color */
+    }
+    
+    .footer-copy {
+      font-size: 1.2rem;
+      color: white;
+    }
   }
-  
-  .footer-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 65px;
-    margin-bottom: 10px;
+
+                  /* (481px - 768px) */
+  /* ✅ Tablets & iPads (481px - 768px) */
+
+
+
+                  /* (769px - 1024px) -------- (Mobile ka Desktop Size) */
+  /* ✅ Small Screens, Laptops (769px - 1024px) */
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-around;
+      gap: 0px;
+      margin: 15px;
+    }
+    
+    .footer-links a {
+      display: flex;
+        gap: 0px 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.4rem;
+        transition: color 0.3s;
+        justify-content: left;
+        text-align: center;
+        margin: 5px 5px 5px 60px;
+        align-items: center;
+    }
+    
+    .footer-links a:hover {
+      color: #1db954; /* or your accent color */
+    }
+    
+    .footer-copy {
+      font-size: 1.4rem;
+      color: white;
+    }
   }
-  
-  .footer-links a {
-    display: flex;
-    gap: 0px 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s;
+
+                  /* (769px - 1024px) -------- (Mobile ka Desktop Size) */
+  /* ✅ Small Screens, Laptops (769px - 1024px) */
+
+
+
+                  /* (1025px - 1200px) */
+  /* ✅ Desktops & Large Screens (1025px - 1200px) */
+
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 65px;
+      margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+      display: flex;
+      gap: 0px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+      transition: color 0.3s;
+    }
+    
+    .footer-links a:hover {
+      color: #1db954; /* or your accent color */
+    }
+    
+    .footer-copy {
+      font-size: 1.2rem;
+      color: white;
+    }
   }
-  
-  .footer-links a:hover {
-    color: #1db954; /* or your accent color */
+
+                  /* (1025px - 1200px) */
+  /* ✅ Desktops & Large Screens (1025px - 1200px) */
+
+
+
+                  /* (1201px and above) */
+  /* ✅ Extra Large Screens (1201px and above) */
+
+  @media screen and (min-width: 1201px) {
+
+    .footer {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 900px;
+      margin: auto;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 65px;
+      margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+      display: flex;
+      gap: 0px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s;
+    }
+    
+    .footer-links a:hover {
+      color: #1db954; /* or your accent color */
+    }
+    
+    .footer-copy {
+      font-size: 12px;
+      color: white;
+    }
   }
-  
-  .footer-copy {
-    font-size: 12px;
-    color: white;
-  }
+
+                  /* (1201px and above) */
+  /* ✅ Extra Large Screens (1201px and above) */  
+
+
+
   
