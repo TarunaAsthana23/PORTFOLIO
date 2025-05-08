@@ -80,7 +80,7 @@
         /* background-color: #819db6; */
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: flex-start;
         /* border-radius: 50%; */
         /* margin: 50px 50px 50px 50px; */
         overflow: hidden; /* ⭐ Important: crop image inside circle */
@@ -88,8 +88,8 @@
     }
     
     img.photo_1{
-        width: 75%;
-        height: 75%;
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
         object-fit: cover;
         object-position: center top; /* ⭐ move face into center — adjust as needed */
@@ -101,7 +101,9 @@
     .home {
         display: flex;
         justify-content: center;
-        gap: 0 100px;
+        gap: 0 50px;
+        flex-direction: column;
+        align-items: center;
     }
       
       .title_1 {
@@ -113,7 +115,7 @@
       
       
       .title_1 h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: #000000;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -121,7 +123,7 @@
       }
     
       .title_1 h2 {
-        font-size: 1rem;
+        font-size: 1.8rem;
         color: #000000;
         margin-top: 0px;
         margin-bottom: 20px;
@@ -129,10 +131,10 @@
       }
       
       .title_1 p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: #000000;
         margin-top: 20px;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
       }
     
       .btn_1{
@@ -149,7 +151,7 @@
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 1rem;
+      font-size: 1.5rem;
       border-radius: 25px;
       cursor: pointer; 
       }
@@ -194,7 +196,7 @@
         /* background-color: #819db6; */
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: flex-start;
         /* border-radius: 50%; */
         /* margin: 50px 50px 50px 50px; */
         overflow: hidden; /* ⭐ Important: crop image inside circle */
@@ -202,8 +204,8 @@
     }
     
     img.photo_1{
-        width: 75%;
-        height: 75%;
+        width: 100%;
+        height: 100%;
         border-radius: 50%;
         object-fit: cover;
         object-position: center top; /* ⭐ move face into center — adjust as needed */
@@ -215,7 +217,9 @@
     .home {
         display: flex;
         justify-content: center;
-        gap: 0 100px;
+        gap: 0 50px;
+        flex-direction: column;
+        align-items: center;
     }
       
       .title_1 {
@@ -227,7 +231,7 @@
       
       
       .title_1 h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: #000000;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -235,7 +239,7 @@
       }
     
       .title_1 h2 {
-        font-size: 1rem;
+        font-size: 1.8rem;
         color: #000000;
         margin-top: 0px;
         margin-bottom: 20px;
@@ -243,10 +247,10 @@
       }
       
       .title_1 p {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: #000000;
         margin-top: 20px;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
       }
     
       .btn_1{
@@ -263,7 +267,7 @@
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 1rem;
+      font-size: 1.5rem;
       border-radius: 25px;
       cursor: pointer; 
       }
@@ -630,149 +634,150 @@
   
   /* Fade-in effect */
 
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+  
+  .fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
   }
-}
-
-.fade-in-right {
-  animation: fadeInRight 1s ease-in-out;
-}
-
-/* Styling for the About section */
-
-.block_2 {
-padding: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;       
-/* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
-background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
-}
-/* About Title at the top */
-.title_2 {
-  text-align: center;
-  /* margin-bottom: 30px; */
-}
-
-.title_2 h1 {
-  font-size: 3rem;
-  color: #333;
-}
-/* .title_2 h1{
+  
+  /* Styling for the About section */
+  
+  .block_2 {
+  padding: 50px;
   display: flex;
-  align-items: baseline;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-} */
-
-/* Main content container: Flexbox layout */
-.block_3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  gap: 20px;
-}
-
-
-/* Left content: name, title, and description */
-.title_3 {
-  flex: 1;
-  text-align: left;
-}
-
-.title_3 h1 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.title_3 h2 {
-  font-size: 1.5rem;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.title_3 p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-/* block_4: Profile photo */
-.block_4 {
-  width: 600px;
-  height: 600px;
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  overflow: hidden; /* ⭐ Important: crop image inside circle */
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  gap: 35px;
-}
-
-.block_4 .photo_2 {
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #333;
-  object-position: center top; /* ⭐ move face into center — adjust as needed */
-  display: flex;
-  justify-content: center;
-}
-
-.btn_2 {
-  display: flex;
-  gap: 0 20px;
-}
-
-.btn_2 button {
+  justify-content: center;       
+  /* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
+  background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
+  }
+  /* About Title at the top */
+  .title_2 {
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+  
+  .title_2 h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  /* .title_2 h1{
+    display: flex;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  } */
+  
+  /* Main content container: Flexbox layout */
+  .block_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  
+  
+  /* Left content: name, title, and description */
+  .title_3 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .title_3 h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title_3 h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .title_3 p {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  /* block_4: Profile photo */
+  .block_4 {
+    width: 600px;
+    height: 600px;
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden; /* ⭐ Important: crop image inside circle */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .block_4 .photo_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    object-position: center top; /* ⭐ move face into center — adjust as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn_2 {
+    display: flex;
+    gap: 0 20px;
+  }
+  
+  .btn_2 button {
+    padding: 10px 20px;
+    background-color: #03884e;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn_2 button:hover {
+    background-color: #053e25;
+  }
+  
+  .btn_3 {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    gap: 0px 20px;
+    padding: 75px 0px 0px 0px;
+  }
+  
+  .btn_3 button {
   padding: 10px 20px;
-  background-color: #03884e;
+  background-color: #f43d37;
   border: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: 25px;
   cursor: pointer;
-}
-
-.btn_2 button:hover {
-  background-color: #053e25;
-}
-
-.btn_3 {
-  margin: 35px 0px 0px 0px;
-  display: flex;
-  gap: 0px 20px;
-  padding: 75px 0px 0px 0px;
-}
-
-.btn_3 button {
-padding: 10px 20px;
-background-color: #f43d37;
-border: none;
-color: white;
-font-size: 1rem;
-border-radius: 25px;
-cursor: pointer;
-}
-
-.btn_3 button:hover {
-background-color: #d93b2c;
-}
+  }
+  
+  .btn_3 button:hover {
+  background-color: #d93b2c;
+  }
   }
 
                               /* (320px - 480px) */
@@ -785,149 +790,150 @@ background-color: #d93b2c;
 
   /* Fade-in effect */
 
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+  
+  .fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
   }
-}
-
-.fade-in-right {
-  animation: fadeInRight 1s ease-in-out;
-}
-
-/* Styling for the About section */
-
-.block_2 {
-padding: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;       
-/* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
-background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
-}
-/* About Title at the top */
-.title_2 {
-  text-align: center;
-  /* margin-bottom: 30px; */
-}
-
-.title_2 h1 {
-  font-size: 3rem;
-  color: #333;
-}
-/* .title_2 h1{
+  
+  /* Styling for the About section */
+  
+  .block_2 {
+  padding: 50px;
   display: flex;
-  align-items: baseline;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-} */
-
-/* Main content container: Flexbox layout */
-.block_3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  gap: 20px;
-}
-
-
-/* Left content: name, title, and description */
-.title_3 {
-  flex: 1;
-  text-align: left;
-}
-
-.title_3 h1 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.title_3 h2 {
-  font-size: 1.5rem;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.title_3 p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-/* block_4: Profile photo */
-.block_4 {
-  width: 600px;
-  height: 600px;
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  overflow: hidden; /* ⭐ Important: crop image inside circle */
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  gap: 35px;
-}
-
-.block_4 .photo_2 {
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #333;
-  object-position: center top; /* ⭐ move face into center — adjust as needed */
-  display: flex;
-  justify-content: center;
-}
-
-.btn_2 {
-  display: flex;
-  gap: 0 20px;
-}
-
-.btn_2 button {
+  justify-content: center;       
+  /* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
+  background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
+  }
+  /* About Title at the top */
+  .title_2 {
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+  
+  .title_2 h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  /* .title_2 h1{
+    display: flex;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  } */
+  
+  /* Main content container: Flexbox layout */
+  .block_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  
+  
+  /* Left content: name, title, and description */
+  .title_3 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .title_3 h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title_3 h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .title_3 p {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  /* block_4: Profile photo */
+  .block_4 {
+    width: 600px;
+    height: 600px;
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden; /* ⭐ Important: crop image inside circle */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .block_4 .photo_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    object-position: center top; /* ⭐ move face into center — adjust as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn_2 {
+    display: flex;
+    gap: 0 20px;
+  }
+  
+  .btn_2 button {
+    padding: 10px 20px;
+    background-color: #03884e;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn_2 button:hover {
+    background-color: #053e25;
+  }
+  
+  .btn_3 {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    gap: 0px 20px;
+    padding: 75px 0px 0px 0px;
+  }
+  
+  .btn_3 button {
   padding: 10px 20px;
-  background-color: #03884e;
+  background-color: #f43d37;
   border: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: 25px;
   cursor: pointer;
-}
-
-.btn_2 button:hover {
-  background-color: #053e25;
-}
-
-.btn_3 {
-  margin: 35px 0px 0px 0px;
-  display: flex;
-  gap: 0px 20px;
-  padding: 75px 0px 0px 0px;
-}
-
-.btn_3 button {
-padding: 10px 20px;
-background-color: #f43d37;
-border: none;
-color: white;
-font-size: 1rem;
-border-radius: 25px;
-cursor: pointer;
-}
-
-.btn_3 button:hover {
-background-color: #d93b2c;
-}
+  }
+  
+  .btn_3 button:hover {
+  background-color: #d93b2c;
+  }
   }
 
                               /* (481px - 768px) */
@@ -940,150 +946,150 @@ background-color: #d93b2c;
 
   /* Fade-in effect */
 
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+  
+  .fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
   }
-}
-
-.fade-in-right {
-  animation: fadeInRight 1s ease-in-out;
-}
-
-/* Styling for the About section */
-
-.block_2 {
-padding: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;       
-/* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
-background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
-}
-/* About Title at the top */
-.title_2 {
-  text-align: center;
-  /* margin-bottom: 30px; */
-}
-
-.title_2 h1 {
-  font-size: 3rem;
-  color: #333;
-}
-/* .title_2 h1{
+  
+  /* Styling for the About section */
+  
+  .block_2 {
+  padding: 50px;
   display: flex;
-  align-items: baseline;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-} */
-
-/* Main content container: Flexbox layout */
-.block_3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  gap: 20px;
-  flex-direction: column-reverse;
-}
-
-
-/* Left content: name, title, and description */
-.title_3 {
-  flex: 1;
-  text-align: center;
-}
-
-.title_3 h1 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.title_3 h2 {
-  font-size: 1.5rem;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.title_3 p {
-  font-size: 1.3rem;
-  color: #333;
-}
-
-/* block_4: Profile photo */
-.block_4 {
-  width: 600px;
-  height: 600px;
-  /* flex: 1; */
-  display: flex;
-  justify-content: flex-start;
-  overflow: hidden; /* ⭐ Important: crop image inside circle */
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  gap: 35px;
-}
-
-.block_4 .photo_2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #333;
-  object-position: center top; /* ⭐ move face into center — adjust as needed */
-  display: flex;
-  justify-content: center;
-}
-
-.btn_2 {
-  display: flex;
-  gap: 0 20px;
-}
-
-.btn_2 button {
+  justify-content: center;       
+  /* background: linear-gradient(to right, #f66eb9, #0e6df7, #ffffff); */
+  background: linear-gradient(to right, #f66eb9, #4c87dc, #ffffff);
+  }
+  /* About Title at the top */
+  .title_2 {
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+  
+  .title_2 h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  /* .title_2 h1{
+    display: flex;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  } */
+  
+  /* Main content container: Flexbox layout */
+  .block_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  
+  
+  /* Left content: name, title, and description */
+  .title_3 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .title_3 h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title_3 h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .title_3 p {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  /* block_4: Profile photo */
+  .block_4 {
+    width: 600px;
+    height: 600px;
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden; /* ⭐ Important: crop image inside circle */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .block_4 .photo_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    object-position: center top; /* ⭐ move face into center — adjust as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn_2 {
+    display: flex;
+    gap: 0 20px;
+  }
+  
+  .btn_2 button {
+    padding: 10px 20px;
+    background-color: #03884e;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn_2 button:hover {
+    background-color: #053e25;
+  }
+  
+  .btn_3 {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    gap: 0px 20px;
+    padding: 75px 0px 0px 0px;
+  }
+  
+  .btn_3 button {
   padding: 10px 20px;
-  background-color: #03884e;
+  background-color: #f43d37;
   border: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-radius: 25px;
   cursor: pointer;
-}
-
-.btn_2 button:hover {
-  background-color: #053e25;
-}
-
-.btn_3 {
-  margin: 35px 0px 0px 0px;
-  display: flex;
-  gap: 0px 20px;
-  padding: 75px 0px 0px 0px;
-}
-
-.btn_3 button {
-padding: 10px 20px;
-background-color: #f43d37;
-border: none;
-color: white;
-font-size: 1.5rem;
-border-radius: 25px;
-cursor: pointer;
-}
-
-.btn_3 button:hover {
-background-color: #d93b2c;
-}
+  }
+  
+  .btn_3 button:hover {
+  background-color: #d93b2c;
+  }
   }
 
                               /* (769px - 1024px) */
@@ -1423,7 +1429,7 @@ background-color: #d93b2c;
     .Con_2 {
       display: flex;
       justify-content: space-evenly;
-      flex-direction: row;
+      flex-direction: column;
     }
     
     .contact {
@@ -1445,6 +1451,7 @@ background-color: #d93b2c;
     }
       
       .contact h1 {
+        font-size: 2.5rem;
         text-align: center;
         margin-bottom: 20px;
         color: #333;
@@ -1455,6 +1462,7 @@ background-color: #d93b2c;
     }
       
       .contact_form label {
+        font-size: 1.3rem;
         display: block;
         margin-bottom: 15px;
         font-weight: bold;
@@ -1468,7 +1476,7 @@ background-color: #d93b2c;
         margin-top: 5px;
         border: 1px solid #aaa;
         border-radius: 5px;
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
       
       .btn_4 {
@@ -1476,7 +1484,7 @@ background-color: #d93b2c;
         padding: 12px 25px;
         background-color: #f43d37;
         color: white;
-        font-size: 1rem;
+        font-size: 1.5rem;
         border: none;
         border-radius: 25px;
         cursor: pointer;
@@ -1491,12 +1499,12 @@ background-color: #d93b2c;
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 130px;
-        margin: 240px 0;
+        gap: 0px 150px;
+        margin: 50px 0px;
       }
       
       .icon {
-        font-size: 40px;
+        font-size: 3.5rem;
         color: #333;
         transition: transform 0.2s ease;
       }
@@ -1504,6 +1512,7 @@ background-color: #d93b2c;
       .icon_1 {
         display: inline-grid;
         justify-content: center;
+        gap: 50px;
     }
       
       .icon:hover {
@@ -1528,7 +1537,7 @@ background-color: #d93b2c;
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 1rem;
+      font-size: 1.5rem;
       border-radius: 25px;
       cursor: pointer;
     }
@@ -1562,7 +1571,7 @@ background-color: #d93b2c;
     .Con_2 {
       display: flex;
       justify-content: space-evenly;
-      flex-direction: row;
+      flex-direction: column;
     }
     
     .contact {
@@ -1584,6 +1593,7 @@ background-color: #d93b2c;
     }
       
       .contact h1 {
+        font-size: 2.5rem;
         text-align: center;
         margin-bottom: 20px;
         color: #333;
@@ -1594,6 +1604,7 @@ background-color: #d93b2c;
     }
       
       .contact_form label {
+        font-size: 1.3rem;
         display: block;
         margin-bottom: 15px;
         font-weight: bold;
@@ -1607,7 +1618,7 @@ background-color: #d93b2c;
         margin-top: 5px;
         border: 1px solid #aaa;
         border-radius: 5px;
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
       
       .btn_4 {
@@ -1615,7 +1626,7 @@ background-color: #d93b2c;
         padding: 12px 25px;
         background-color: #f43d37;
         color: white;
-        font-size: 1rem;
+        font-size: 1.5rem;
         border: none;
         border-radius: 25px;
         cursor: pointer;
@@ -1630,12 +1641,12 @@ background-color: #d93b2c;
     .social-icons {
         display: flex;
         justify-content: center;
-        gap: 130px;
-        margin: 240px 0;
+        gap: 0px 150px;
+        margin: 50px 0px;
       }
       
       .icon {
-        font-size: 40px;
+        font-size: 3.5rem;
         color: #333;
         transition: transform 0.2s ease;
       }
@@ -1643,6 +1654,7 @@ background-color: #d93b2c;
       .icon_1 {
         display: inline-grid;
         justify-content: center;
+        gap: 50px;
     }
       
       .icon:hover {
@@ -1667,7 +1679,7 @@ background-color: #d93b2c;
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 1rem;
+      font-size: 1.5rem;
       border-radius: 25px;
       cursor: pointer;
     }
@@ -2129,7 +2141,7 @@ background-color: #d93b2c;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 350px;
+      gap: 100px;
       margin: 0px 0px 100px 0px;
     }
     
@@ -2137,7 +2149,7 @@ background-color: #d93b2c;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 350px;
+      gap: 100px;
     }
     
     .skill-box:hover {
@@ -2150,17 +2162,20 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
-      width: 300px;
+      width: 450px;
+      height: 150px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     
-    .skill-box h3 {
+    .skill-box h2 {
+      font-size: 2rem;
       margin-bottom: 25px;
       color: #333;
     }
     
     .skill-box ul {
+      font-size: 1.3rem;
       color: #000000;
       list-style-type: square;
       justify-content: center;
@@ -2179,7 +2194,7 @@ background-color: #d93b2c;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 25px;
     cursor: pointer;
     }
@@ -2217,7 +2232,7 @@ background-color: #d93b2c;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 350px;
+      gap: 100px;
       margin: 0px 0px 100px 0px;
     }
     
@@ -2225,7 +2240,7 @@ background-color: #d93b2c;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 350px;
+      gap: 100px;
     }
     
     .skill-box:hover {
@@ -2238,17 +2253,20 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
-      width: 300px;
+      width: 450px;
+      height: 150px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     
-    .skill-box h3 {
+    .skill-box h2 {
+      font-size: 2rem;
       margin-bottom: 25px;
       color: #333;
     }
     
     .skill-box ul {
+      font-size: 1.3rem;
       color: #000000;
       list-style-type: square;
       justify-content: center;
@@ -2267,7 +2285,7 @@ background-color: #d93b2c;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 25px;
     cursor: pointer;
     }
@@ -2589,7 +2607,7 @@ background-color: #d93b2c;
       /* background: #ffffff; */
       background: #ebe7b3;
       border-radius: 15px;
-      width: 280px;
+      width: 470px;
       padding: 20px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
       transition: transform ;
@@ -2619,13 +2637,14 @@ background-color: #d93b2c;
       justify-content: center;
       gap: 12px;
       margin-top: 10px;
-      font-size: 22px;
+      font-size: 45px;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
     }
     
     .project-links a {
+      font-size: 1.5rem;
       display: block;
       margin-top: 10px;
       text-decoration: none;
@@ -2634,14 +2653,22 @@ background-color: #d93b2c;
     
     
     .vscode-icon {
-      width: 50px;
-      height: 27px;
+      width: 85px;
+      height: 45px;
       object-fit: contain;
       vertical-align: middle;
-      margin: -7px 0px 0px -15px;
+      margin: -15px 0px 0px -15px;
     }
+
+    h2.Pro_1 {
+      font-size: 2rem;
+  }
+  h2.Pro_2 {
+    font-size: 2rem;
+}
     
     p.Parh_1{
+      font-size: 1.3rem;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
@@ -2660,7 +2687,7 @@ background-color: #d93b2c;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 25px;
     cursor: pointer;
     }
@@ -2706,7 +2733,7 @@ background-color: #d93b2c;
       /* background: #ffffff; */
       background: #ebe7b3;
       border-radius: 15px;
-      width: 280px;
+      width: 470px;
       padding: 20px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
       transition: transform ;
@@ -2736,13 +2763,14 @@ background-color: #d93b2c;
       justify-content: center;
       gap: 12px;
       margin-top: 10px;
-      font-size: 22px;
+      font-size: 45px;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
     }
     
     .project-links a {
+      font-size: 1.5rem;
       display: block;
       margin-top: 10px;
       text-decoration: none;
@@ -2751,14 +2779,22 @@ background-color: #d93b2c;
     
     
     .vscode-icon {
-      width: 50px;
-      height: 27px;
+      width: 85px;
+      height: 45px;
       object-fit: contain;
       vertical-align: middle;
-      margin: -7px 0px 0px -15px;
+      margin: -15px 0px 0px -15px;
     }
+
+    h2.Pro_1 {
+      font-size: 2rem;
+  }
+  h2.Pro_2 {
+    font-size: 2rem;
+}
     
     p.Parh_1{
+      font-size: 1.3rem;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
@@ -2777,7 +2813,7 @@ background-color: #d93b2c;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 25px;
     cursor: pointer;
     }
