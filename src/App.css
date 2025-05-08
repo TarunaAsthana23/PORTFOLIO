@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App.css */
+.nav-links li .active {
+  font-weight: bold;
+  color: #333; /* You can change the color */
+}

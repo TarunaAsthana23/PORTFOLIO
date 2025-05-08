@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+/* Navbar ki styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ce4a4a;
+  padding: 10px 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0 25px;
+ 
+}
+.social-links a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.social-links ul li a:hover {
+  color: #292121;
+  /* text-decoration: underline; */
+}
+
+.social-links img {
+  background-color: #e22727;
+  width: 24px;
+  margin-left: 10px;
+}
+
+nav {
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+  }
+  
+  /* ul li:hover {
+    background-color: #555;
+  } */
+  
+  ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    color: #292121;
+    /* text-decoration: underline; */
+  }
+  
+/* Active link ki styling */
+ul li .active {
+    color: #292121;    /* Example: Red color for active link */
+    font-weight: bold;
+    /* text-decoration: underline; */
+  }
+
+  .nav-links li .active {
+    color: #333; /* Ya jo bhi highlight color aap chahen */
+    font-weight: bold;
+    /* border-bottom: 2px solid #f39c12;  */
+    /* optional underline effect */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust based on your navbar height */
+  }
