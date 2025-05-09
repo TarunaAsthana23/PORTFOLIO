@@ -18,8 +18,11 @@ import {
   FaGithub,
   FaBootstrap,
   FaJava,
+  FaReact,
 } from 'react-icons/fa';
-import vscodeLogo from '../Assets/Home/visual-studio-code7642.jpg';
+
+import { SiVercel} from 'react-icons/si'; // Vercel icon from Simple Icons
+import { VscVscode } from "react-icons/vsc";
 import { Link } from "react-scroll";
 import "./Home.css";  // ← Yeh line add kariye
 
@@ -36,43 +39,59 @@ const projects = [
     title: 'Amazon Clone',
     image: '/images/amazon_clone.png',
     description: 'An e-commerce website clone created using HTML, CSS, and JavaScript.',
-    tools: ['html', 'css', 'js', 'github', 'vscode'],
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Amazon_Clone',
-    pageLink: 'https://tarunaasthana23.github.io/Amazon_Clone/',
+    // pageLink: 'https://tarunaasthana23.github.io/Amazon_Clone/',
+    vercelLink: 'https://my-portfolio-taruna.vercel.app', // replace with your actual Vercel URL
   },
   {
     title: 'Event Management',
     image: '/images/event_management.png',
     description: 'An event management website developed using HTML, CSS, JavaScript, and TypeScript.',
-    tools: ['html', 'css', 'js', 'bootstrap', 'github', 'vscode'],
+    tools: ['html', 'css', 'js', 'bootstrap', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Event-Management',
-    pageLink: 'https://tarunaasthana23.github.io/Event-Management/',
+    // pageLink: 'https://tarunaasthana23.github.io/Event-Management/',
+    vercelLink: 'https://event-management-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
     title: 'Apparent Clone Website',
     image: '/images/apparent_clone.png',
     description: 'A clone of Apparent Technologies Inc. official website built using HTML, CSS, and JavaScript.',
-    tools: ['html', 'css', 'js', 'github', 'vscode'],
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Apparent_Clone-Website',
-    pageLink: 'https://tarunaasthana23.github.io/Apparent_Clone-Website/',
+    // pageLink: 'https://tarunaasthana23.github.io/Apparent_Clone-Website/',
+    vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
     title: 'Handling Form Submission',
     image: '/images/form_submission.png',
     description: 'A project to handle form submission using Java.',
-    tools: ['java', 'github', 'vscode'],
+    tools: ['java', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/handling-form-submission',
-    pageLink: 'https://tarunaasthana23.github.io/portfolio/',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio/',
+    vercelLink: 'https://my-portfolio-taruna.vercel.app', // replace with your actual Vercel URL
     
   },
 
   {
-    title: 'My Portfolio Website',
+    title: 'My Portfolio',
     image: '/images/portfolio.png',
     description: 'A personal portfolio website created using React.js.',
-    tools: ['html', 'css', 'js', 'github', 'vscode'],
-    repoLink: 'https://github.com/TarunaAsthana23/portfolio',
-    pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
+    repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    vercelLink: 'https://my-portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+
+  },
+
+  {
+    title: 'Portfolio',
+    image: '/images/portfolio.png',
+    description: 'A personal portfolio website created using React.js.',
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
+    repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
 
   },
 ];
@@ -83,9 +102,10 @@ const iconMap = {
   js: <FaJs />,
   bootstrap: <FaBootstrap />,
   github: <FaGithub />,
-  vscode: <img src={vscodeLogo} alt="VS Code" className="vscode-icon" />, // Custom image for VS Code
+  vscode: <VscVscode />, // ✅ No <img>, icon just like others
   java: <FaJava />,
-  
+  react: <FaReact />,
+  vercel: <SiVercel />,
 };
 
 
@@ -341,8 +361,8 @@ const iconMap = {
               <a href={project.repoLink} target="_blank" rel="noreferrer">
                 <FaGithub /> Repository
               </a>
-              <a href={project.pageLink} target="_blank" rel="noreferrer">
-                <FaGithub /> Page
+              <a href={project.vercelLink} target="_blank" rel="noreferrer">
+                <FaGithub /> Vercel
               </a>
             </div> 
           </div>

@@ -92,11 +92,11 @@ function Navbar() {
           </div>
           <div className="popup-menu">
             <ul>
-              <li><Link to="home" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Home</Link></li>
-              <li><Link to="about" smooth={true} duration={500} offset={-70} onClick={closeMenu}>About</Link></li>
-              <li><Link to="contact" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Contact</Link></li>
-              <li><Link to="skills" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Skills</Link></li>
-              <li><Link to="projects" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Projects</Link></li>
+              <li><Link to="home" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
+              <li><Link to="about" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
+              <li><Link to="contact" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
+              <li><Link to="skills" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
+              <li><Link to="projects" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
               
             </ul>
           </div>
