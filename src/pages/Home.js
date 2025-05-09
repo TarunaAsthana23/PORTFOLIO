@@ -37,16 +37,16 @@ const Home = () => {
 const projects = [
   {
     title: 'Amazon Clone',
-    image: '/images/amazon_clone.png',
+    image: '/Set/Images/Amazon.png',
     description: 'An e-commerce website clone created using HTML, CSS, and JavaScript.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Amazon_Clone',
     // pageLink: 'https://tarunaasthana23.github.io/Amazon_Clone/',
-    vercelLink: 'https://my-portfolio-taruna.vercel.app', // replace with your actual Vercel URL
+    vercelLink: '', // replace with your actual Vercel URL
   },
   {
     title: 'Event Management',
-    image: '/images/event_management.png',
+    image: '/Set/Images/Event Management.png',
     description: 'An event management website developed using HTML, CSS, JavaScript, and TypeScript.',
     tools: ['html', 'css', 'js', 'bootstrap', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Event-Management',
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: 'Apparent Clone',
-    image: '/images/apparent_clone.png',
+    image: '/Set/Images/Apparent.png',
     description: 'A clone of Apparent Technologies Inc. official website built using HTML, CSS, and JavaScript.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Apparent_Clone-Website',
@@ -64,18 +64,18 @@ const projects = [
   },
   {
     title: 'Handling Form Submission',
-    image: '/images/form_submission.png',
+    image: '/Set/Images/S1.png',
     description: 'A project to handle form submission using Java.',
     tools: ['java', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/handling-form-submission',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio/',
-    vercelLink: 'https://my-portfolio-taruna.vercel.app', // replace with your actual Vercel URL
+    vercelLink: '', // replace with your actual Vercel URL
     
   },
 
   {
     title: 'My Portfolio',
-    image: '/images/portfolio.png',
+    image: '/Set/Images/portfolio.png',
     description: 'A personal portfolio website created using React.js.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
@@ -86,7 +86,7 @@ const projects = [
 
   {
     title: 'Portfolio',
-    image: '/images/portfolio.png',
+    image: '/Set/Images/portfolio.png',
     description: 'A personal portfolio website created using React.js.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
