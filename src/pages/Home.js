@@ -75,7 +75,7 @@ const projects = [
 
   {
     title: 'My Portfolio',
-    image: '/Set/Images/portfolio.png',
+    image: '/Set/Images/My Portfolio.png',
     description: 'A personal portfolio website created using React.js.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
@@ -86,7 +86,7 @@ const projects = [
 
   {
     title: 'Portfolio',
-    image: '/Set/Images/portfolio.png',
+    image: '/Set/Images/Portfolio.png',
     description: 'A personal portfolio website created using React.js.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
