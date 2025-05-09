@@ -1,7 +1,7 @@
 // Example: src/components/Navbar.js
 
 
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll"; // react-scroll ka Link import
 // import { NavLink } from "react-router-dom"; // NavLink import karo
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,14 +13,33 @@ from "@fortawesome/free-brands-svg-icons";
 import { 
   faEnvelope, 
   faFolderOpen, 
-  faPhone
+  faPhone,
+  faBars, 
+  faTimes
 } 
 from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css"; // CSS ko import karo
 
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+
+
   return (
+
+  <>
+    
     <nav className="navbar">
+    {/* <div className="logo">My Portfolio</div> */}
        {/* 🔗 Social Links Div */}
 
 
@@ -44,30 +63,46 @@ function Navbar() {
       </div>
 
       <ul className="nav-links">
+          <li><Link to="home" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="about" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
+          <li><Link to="contact" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
+          <li><Link to="skills" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
+          <li><Link to="projects" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
+          
+        </ul>
+
+       {/* 🔗 Normal Navigation Links */}
+      
         {/* <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li> */}
 
-        <li><Link to="home" smooth={true} duration={500} spy={true} activeClass="active" offset={-70} >Home</Link></li>
-        <li><Link to="about" smooth={true} duration={500} spy={true} activeClass="active" offset={-70} >About</Link></li>
-        <li><Link to="contact" smooth={true} duration={500} spy={true} activeClass="active" offset={-70} >Contact</Link></li>
-        <li><Link to="skills" smooth={true} duration={500} spy={true} activeClass="active" offset={-70} >Skills</Link></li>
-        <li><Link to="projects" smooth={true} duration={500} spy={true} activeClass="active" offset={-70} >Projects</Link></li>
-      </ul>
+        {/* Popup Overlay Menu */}
+        <div className="menu-icon" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
+        </div>
+      </nav>
 
-
-
-
- {/* Contact Me Button */}
-
- 
-    {/* <Link to="about" smooth={true} duration={500}>About</Link>
-    <Link to="skills" smooth={true} duration={500}>Skills</Link>
-    <Link to="projects" smooth={true} duration={500}>Projects</Link>
-    <Link to="contact" smooth={true} duration={500}>Contact</Link> */}
-    </nav>
+      {menuOpen && (
+        <div className="popup-overlay">
+          <div className="close-icon" onClick={closeMenu}>
+            <FontAwesomeIcon icon={faTimes} />
+          </div>
+          <div className="popup-menu">
+            <ul>
+              <li><Link to="home" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Home</Link></li>
+              <li><Link to="about" smooth={true} duration={500} offset={-70} onClick={closeMenu}>About</Link></li>
+              <li><Link to="contact" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Contact</Link></li>
+              <li><Link to="skills" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Skills</Link></li>
+              <li><Link to="projects" smooth={true} duration={500} offset={-70} onClick={closeMenu}>Projects</Link></li>
+              
+            </ul>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 

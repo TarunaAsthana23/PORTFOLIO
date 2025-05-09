@@ -71,7 +71,7 @@
     .main_1{
        /* background: linear-gradient(to right, #d7d2cc, #ac6167); */
        background: linear-gradient(to right, #ffffff, #ac6167, #b2cef9);
-       padding: 50px;
+       padding: 100px 0px 50px 0px;;
     }
     
     .block_1 {
@@ -135,23 +135,24 @@
         color: #000000;
         margin-top: 20px;
         margin-bottom: 0px;
+        text-align: center;
       }
     
       .btn_1{
         margin: 35px 0px 0px 0px;
         display: flex;
-        gap: 0px 20px;
+        gap: 0px 10px;
         padding: 50px 0px 0px 0px;
         align-items: center;
         justify-content: center;
     }
     
     .btn_1 button {
-      padding: 10px 20px;
+      padding: 10px 10px;
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 0.5rem;
+      font-size: 1rem;
       border-radius: 25px;
       cursor: pointer; 
       }
@@ -187,7 +188,7 @@
     .main_1{
        /* background: linear-gradient(to right, #d7d2cc, #ac6167); */
        background: linear-gradient(to right, #ffffff, #ac6167, #b2cef9);
-       padding: 50px;
+       padding: 150px 0px 50px 0px;
     }
     
     .block_1 {
@@ -762,16 +763,16 @@
   .btn_3 {
     margin: 35px 0px 0px 0px;
     display: flex;
-    gap: 0px 20px;
+    gap: 0px 10px;
     padding: 75px 0px 0px 0px;
   }
   
   .btn_3 button {
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #f43d37;
   border: none;
   color: white;
-  font-size: 0.5rem;
+  font-size: 1rem;
   border-radius: 25px;
   cursor: pointer;
   }
@@ -1424,14 +1425,15 @@ background-color: #d93b2c;
     
     .Con_2 {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       flex-direction: column;
+      align-items: center;
     }
     
     .contact {
       max-width: 318px;
       margin: 50px -25px 50px -25px;
-      padding: 30px 0px 30px 0px;
+      padding: 30px 10px 30px 10px;
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
         background-color: #ebe7b3;
@@ -1473,6 +1475,11 @@ background-color: #d93b2c;
         border: 1px solid #aaa;
         border-radius: 5px;
         font-size: 1.3rem;
+      }
+
+      button.btn_4 {
+        margin: 10px 71px 10px 71px;
+        text-align: center;
       }
       
       .btn_4 {
@@ -1523,17 +1530,17 @@ background-color: #d93b2c;
       .btn_5 {
         margin: 70px 0px 0px 0px;
         display: flex;
-        gap: 0px 20px;
+        gap: 0px 10px;
         justify-content: center;
         padding: 0px 0px 0px 0px;
       }
       
     .btn_5 button {
-      padding: 10px 20px;
+      padding: 10px 10px;
       background-color: #f43d37;
       border: none;
       color: white;
-      font-size: 0.5rem;
+      font-size: 1rem;
       border-radius: 25px;
       cursor: pointer;
     }
@@ -1619,6 +1626,11 @@ background-color: #d93b2c;
         font-size: 1.3rem;
       }
       
+      button.btn_4 {
+        margin: 10px 110px 10px 110px;
+        text-align: center;
+      }
+
       .btn_4 {
         margin-top: 20px;
         padding: 12px 25px;
@@ -1763,6 +1775,11 @@ background-color: #d93b2c;
         font-size: 1.3rem;
       }
       
+      button.btn_4 {
+        margin: 10px 210px 10px 210px;
+        text-align: center;
+      }
+
       .btn_4 {
         margin-top: 20px;
         padding: 12px 25px;
@@ -1905,6 +1922,11 @@ background-color: #d93b2c;
         font-size: 1.3rem;
       }
       
+      button.btn_4 {
+        margin: 10px 225px 10px 225px;
+        text-align: center;
+      }
+
       .btn_4 {
         margin-top: 20px;
         padding: 12px 25px;
@@ -2044,6 +2066,11 @@ background-color: #d93b2c;
         border-radius: 5px;
         font-size: 1rem;
       }
+
+      button.btn_4 {
+        margin: 10px 267px 10px 267px;
+        text-align: center;
+      }
       
       .btn_4 {
         margin-top: 40px;
@@ -2175,28 +2202,30 @@ background-color: #d93b2c;
     }
     
     .skill-box ul {
-      display: grid;
-      font-size: 1.3rem;
-      color: #000000;
-      list-style-type: square;
+      list-style-type: none;
       justify-content: center;
-      margin-bottom: 25px;
+      display: grid;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.3rem;
     }
     
     .btn_6 {
       margin: 100px 0px 0px 0px;
       display: flex;
-      gap: 0px 20px;
+      gap: 0px 10px;
       justify-content: center;
       padding: 0px 0px 0px 0px;
     }
     
     .btn_6 button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 0.5rem;
+    font-size: 1rem;
     border-radius: 25px;
     cursor: pointer;
     }
@@ -2256,7 +2285,7 @@ background-color: #d93b2c;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 33px;
       width: 320px;
-      height: 150px;
+      /* height: 150px; */
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -2268,10 +2297,14 @@ background-color: #d93b2c;
     }
     
     .skill-box ul {
-      font-size: 1.3rem;
-      color: #000000;
-      list-style-type: square;
+      list-style-type: none;
       justify-content: center;
+      display: grid;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.3rem;
     }
     
     .btn_6 {
@@ -2347,7 +2380,7 @@ background-color: #d93b2c;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
       width: 450px;
-      height: 150px;
+      /* height: 150px; */
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -2361,8 +2394,14 @@ background-color: #d93b2c;
     .skill-box ul {
       font-size: 1.3rem;
       color: #000000;
-      list-style-type: square;
+      list-style-type: none;
       justify-content: center;
+      display: flex;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        
     }
     
     .btn_6 {
@@ -2451,9 +2490,13 @@ background-color: #d93b2c;
     
     .skill-box ul {
       font-size: 1.3rem;
-      color: #000000;
-      list-style-type: square;
-      justify-content: center;
+        color: #000000;
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
     }
     
     .btn_6 {
@@ -2543,8 +2586,13 @@ background-color: #d93b2c;
     .skill-box ul {
       font-size: 1rem;
       color: #000000;
-      list-style-type: square;
+      list-style-type: none;
       justify-content: center;
+      display: flex;
+      gap: 10px;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
     }
 
     .btn_6 {
@@ -2679,17 +2727,17 @@ background-color: #d93b2c;
     .btn_7 {
       margin: 100px 0px 0px 0px;
       display: flex;
-      gap: 0px 20px;
+      gap: 0px 10px;
       justify-content: center;
       padding: 0px 0px 0px 0px;
     }
     
     .btn_7 button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #f43d37;
     border: none;
     color: white;
-    font-size: 0.5rem;
+    font-size: 1rem;
     border-radius: 25px;
     cursor: pointer;
     }
