@@ -54,7 +54,7 @@ const projects = [
     vercelLink: 'https://event-management-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
-    title: 'Apparent Clone Website',
+    title: 'Apparent Clone',
     image: '/images/apparent_clone.png',
     description: 'A clone of Apparent Technologies Inc. official website built using HTML, CSS, and JavaScript.',
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
