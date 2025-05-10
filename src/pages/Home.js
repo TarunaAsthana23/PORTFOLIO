@@ -182,7 +182,7 @@ const iconMap = {
                 </button>
 
                   {/* Download CV */}
-                <a href="/Set/Resume/CV_2024-09-10_Taruna_Asthana.pdf" download>
+                <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
                   <button>Download CV</button>
                 </a>
               </div>
