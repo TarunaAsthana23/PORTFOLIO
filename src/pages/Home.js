@@ -1,8 +1,8 @@
 // src/pages/Home.js
 
 import React from "react";
-import profilePic_1 from "../Assets/Home/Taruna(1).jpg";
-import profilePic_2 from "../Assets/Home/Chubby(1).jpg";
+import profilePic_1 from "../Assets/Home/Chubby.jpg";
+import profilePic_2 from "../Assets/Home/Chubby.jpg";
 import {
   FaLinkedin,
   // FaGithub,
