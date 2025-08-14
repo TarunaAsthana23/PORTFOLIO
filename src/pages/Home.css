@@ -2210,6 +2210,7 @@ background-color: #d93b2c;
         text-align: center;
         padding: 0px 0px 0px 0px;
         font-size: 1.3rem;
+        flex-direction: column;
     }
     
     .btn_6 {
@@ -2284,7 +2285,7 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 33px;
-      width: 320px;
+      width: 220px;
       /* height: 150px; */
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -2305,6 +2306,7 @@ background-color: #d93b2c;
         text-align: center;
         padding: 0px 0px 0px 0px;
         font-size: 1.3rem;
+        flex-direction: column;
     }
     
     .btn_6 {
@@ -2379,7 +2381,7 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
-      width: 450px;
+      width: 250px;
       /* height: 150px; */
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -2401,6 +2403,7 @@ background-color: #d93b2c;
         justify-content: center;
         text-align: center;
         padding: 0px 0px 0px 0px;
+        flex-direction: column;
         
     }
     
@@ -2477,7 +2480,7 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
-      width: 320px;
+      width: 200px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -2497,6 +2500,7 @@ background-color: #d93b2c;
         justify-content: center;
         text-align: center;
         padding: 0px 0px 0px 0px;
+        flex-direction: column;
     }
     
     .btn_6 {
@@ -2572,7 +2576,7 @@ background-color: #d93b2c;
       background: #ebe7b3;
       /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
       padding: 50px;
-      width: 300px;
+      width: 200px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -2593,6 +2597,7 @@ background-color: #d93b2c;
         justify-content: center;
         text-align: center;
         padding: 0px 0px 0px 0px;
+        flex-direction: column
     }
 
     .btn_6 {

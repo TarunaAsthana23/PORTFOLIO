@@ -319,8 +319,10 @@ const iconMap = {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Bootstrap</li>
             <li>JavaScript</li>
             <li>React</li>
+            
           </ul>
         </div>
         <div className="skill-box">
