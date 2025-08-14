@@ -2745,6 +2745,27 @@ background-color: #d93b2c;
     .btn_7 button:hover {
     background-color: #d93b2c;
     }
+
+    .view {
+      display: flex;
+      justify-content: center;
+      }
+
+    .view-btn {
+     margin: 100px 0px 0px 0px;
+     display: flex;
+     padding: 10px 10px;
+     background-color: #f43d37;
+     border: none;
+     color: white;
+     font-size: 1rem;
+     border-radius: 25px;
+     cursor: pointer;
+     }
+                      
+      .view-btn:hover {
+        background-color: #d93b2c;
+        }
   }
 
                               /* (320px - 480px) */
@@ -2871,6 +2892,27 @@ background-color: #d93b2c;
     .btn_7 button:hover {
     background-color: #d93b2c;
     }
+
+    .view {
+      display: flex;
+      justify-content: center;
+      }
+
+      .view-btn{
+        margin: 100px 0px 0px 0px;
+        display: flex;
+        padding: 10px 20px;
+        background-color: #f43d37;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+                     
+      .view-btn:hover {
+      background-color: #d93b2c;
+      }
   }
 
                               /* (481px - 768px) */
@@ -2996,6 +3038,27 @@ background-color: #d93b2c;
     
     .btn_7 button:hover {
     background-color: #d93b2c;
+    }
+
+     .view {
+      display: flex;
+      justify-content: center;
+    }
+
+      .view-btn{
+        margin: 100px 0px 0px 0px;
+        display: flex;
+        padding: 10px 20px;
+        background-color: #f43d37;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+                      
+    .view-btn:hover {
+      background-color: #d93b2c;
     }
   }
 
@@ -3127,6 +3190,27 @@ background-color: #d93b2c;
     
     .btn_7 button:hover {
     background-color: #d93b2c;
+    }
+
+    .view {
+      display: flex;
+      justify-content: center;
+    }
+
+    .view-btn {
+      margin: 100px 0px 0px 0px;
+      display: flex;
+      padding: 10px 20px;
+      background-color: #f43d37;
+      border: none;
+      color: white;
+      font-size: 1.3rem;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+                      
+    .view-btn:hover {
+      background-color: #d93b2c;
     }
   }                  
 
@@ -3260,6 +3344,26 @@ background-color: #d93b2c;
     
     .btn_7 button:hover {
     background-color: #d93b2c;
+    }
+    .view {
+      display: flex;
+      justify-content: center;
+    }
+
+    .view-btn {
+      margin: 100px 0px 0px 0px;
+      display: flex;  
+      padding: 10px 20px;
+      background-color: #f43d37;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+                      
+    .view-btn:hover {
+      background-color: #d93b2c;
     }
   }
 
