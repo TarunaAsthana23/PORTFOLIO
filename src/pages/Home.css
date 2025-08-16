@@ -2687,6 +2687,7 @@ background-color: #d93b2c;
       /* margin-bottom: 20px; */
     }
     
+
     .tools {
       display: flex;
       justify-content: center;
@@ -2696,6 +2697,7 @@ background-color: #d93b2c;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
+              flex-wrap: wrap;
     }
     
     .project-links a {
@@ -2843,6 +2845,7 @@ background-color: #d93b2c;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
     
     .project-links a {
@@ -2990,6 +2993,7 @@ background-color: #d93b2c;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
     
     .project-links a {
@@ -3151,6 +3155,7 @@ background-color: #d93b2c;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
     
     .project-links a {
@@ -3304,6 +3309,7 @@ background-color: #d93b2c;
       border-bottom: 2px solid #ccc;
       padding-bottom: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
     }
     
     .project-links a {
