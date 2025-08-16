@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
+  faWhatsapp, // WhatsApp icon import
 } 
 from "@fortawesome/free-brands-svg-icons";
 import { 
@@ -59,6 +60,11 @@ function Navbar() {
         </a>
         <a href="tel:+917985877742" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faPhone} size="lg" alt="Contact" />
+          </a>
+
+        {/* ✅ WhatsApp Icon DESKTOP */}
+          <a href="https://wa.me/917985877742" className="wht_app" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} size="lg" alt="WhatsApp" />
           </a>
       </div>
 

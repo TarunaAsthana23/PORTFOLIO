@@ -25,7 +25,7 @@
     .social-links {
       display: flex;
       gap: 10px;
-      padding: 0px 0px 0px 30px;
+      padding: 0px 0px 0px 15px;
     }
     
     .social-links a {
@@ -33,6 +33,11 @@
       font-size: 1.3rem;
       text-decoration: none;
     }
+
+    a.wht_app {
+    font-size: 1.5rem;
+    margin: -2px 0px 0px 0px;
+}
     
     /* CENTER - (Optional logo or spacer) */
     .navbar-center {
@@ -167,6 +172,11 @@
       font-size: 1.5rem;
       text-decoration: none;
     }
+
+    a.wht_app {
+    font-size: 1.8rem;
+    margin: -3px 0px 0px 0px;
+}
     
     /* CENTER - (Optional logo or spacer) */
     .navbar-center {
@@ -306,6 +316,11 @@
       font-size: 1.5rem;
       text-decoration: none;
     }
+
+    a.wht_app {
+    font-size: 1.8rem;
+    margin: -3px 0px 0px 0px;
+}
     
     /* CENTER - (Optional logo or spacer) */
     .navbar-center {
@@ -436,6 +451,11 @@
       font-size: 1.5rem;
       text-decoration: none;
     }
+
+    a.wht_app {
+    font-size: 1.8rem;
+    margin: -3px 0px 0px 0px;
+}
     
     /* CENTER - (Optional logo or spacer) */
     .navbar-center {
@@ -567,6 +587,11 @@
       font-size: 1.2rem;
       text-decoration: none;
     }
+
+    a.wht_app {
+    font-size: 1.5rem;
+    margin: -3px 0px 0px 0px;
+}
     
     /* CENTER - (Optional logo or spacer) */
     .navbar-center {

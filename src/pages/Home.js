@@ -41,7 +41,6 @@ const projects = [
     image: '/Set/Images/Codemic.png',
     description: 'A responsive and visually appealing website for a web development company, designed to showcase services, portfolio, and contact details in a professional, user-friendly manner. Built using React.js for the frontend and Node.js for the backend, with MongoDB as the database, the site delivers a modern design, smooth navigation, and reliable performance across all devices.',
     tools: ['html', 'css', 'bootstrap', 'js','github', 'vscode', 'vercel', 'react'],
-
     // repoLink: 'https://github.com/TarunaAsthana23/codemic.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
     vercelLink: 'https://codemic.vercel.app/', // replace with your actual Vercel URL
