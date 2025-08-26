@@ -100,7 +100,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Apparent_Clone-Website',
     // pageLink: 'https://tarunaasthana23.github.io/Apparent_Clone-Website/',
-    vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    // vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
     id: 7,
