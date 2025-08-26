@@ -54,7 +54,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    vercelLink: 'https://portfolio-tarunaasthana.vercel.app/', // replace with your actual Vercel URL
 
   },
 
@@ -77,7 +77,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://my-portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    vercelLink: 'https://my-portfolio-tarunaasthana.vercel.app/', // replace with your actual Vercel URL
   },
 
   {
@@ -204,12 +204,12 @@ const iconMap = {
             
               <div className="btn_2 fade-in-right">
                   {/* Preview CV */}
-                <button onClick={() => window.open("/Set/Resume/2025 TARUNA_ASTHANA.pdf", "_blank")}>
+                <button onClick={() => window.open("/Set/Resume/LTaruna Asthana.pdf.pdf.pdf", "_blank")}>
                   Preview CV
                 </button>
 
                   {/* Download CV */}
-                <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
+                <a href="/Set/Resume/LTaruna Asthana.pdf.pdf.pdf" download>
                   <button>Download CV</button>
                 </a>
               </div>
