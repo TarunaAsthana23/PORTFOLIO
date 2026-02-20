@@ -70,13 +70,21 @@ function Navbar() {
       </div>
 
       <ul className="nav-links">
-          <li><Link to="home" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
-          <li><Link to="about" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
-          <li><Link to="contact" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
-          <li><Link to="skills" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
-          <li><Link to="projects" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
+          <li><Link to="home" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="about" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
+          <li><Link to="contact" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
+          <li><Link to="skills" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
+          <li><Link to="projects" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
           
         </ul>
+
+      {/* <div className="nav-links">
+          <button><Link to="home" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></button>
+          <button><Link to="about" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></button>
+          <button><Link to="contact" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></button>
+          <button><Link to="skills" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></button>
+          <button><Link to="projects" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></button>  
+      </div> */}
 
        {/* 🔗 Normal Navigation Links */}
       
@@ -99,11 +107,11 @@ function Navbar() {
           </div>
           <div className="popup-menu">
             <ul>
-              <li><Link to="home" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
-              <li><Link to="about" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
-              <li><Link to="contact" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
-              <li><Link to="skills" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
-              <li><Link to="projects" smooth={true} duration={500} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
+              <li><Link to="home" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Home</Link></li>
+              <li><Link to="about" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>About</Link></li>
+              <li><Link to="contact" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Contact</Link></li>
+              <li><Link to="skills" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Skills</Link></li>
+              <li><Link to="projects" smooth={true} duration={100} offset={-70} spy={true} activeClass="active" onClick={closeMenu}>Projects</Link></li>
               
             </ul>
           </div>

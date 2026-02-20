@@ -61,7 +61,7 @@
     }
     
     .nav-links {
-      display: flex;
+      display: none;
       gap: 20px;
       list-style: none;
       margin: 0;
@@ -69,6 +69,7 @@
     }
     
     .nav-links li a {
+      cursor: pointer;
       color: white;
       text-decoration: none;
       font-size: 1rem;
@@ -102,10 +103,12 @@
     }
     
     .popup-menu ul li {
+      cursor: pointer;
       margin: 60px 0;
     }
     
     .popup-menu ul li a {
+      cursor: pointer;
       color: white;
       font-size: 3.5rem;
       text-decoration: none;
@@ -123,10 +126,6 @@
     .menu-icon {
       display: block;
       font-size: 2rem;
-    }
-  
-    .nav-links {
-      display: none;
     }
   
     .popup-overlay {
@@ -199,7 +198,7 @@
     }
     
     .nav-links {
-      display: flex;
+      display: none;
       gap: 20px;
       list-style: none;
       margin: 0;
@@ -207,6 +206,7 @@
     }
     
     .nav-links li a {
+      cursor: pointer;
       color: white;
       text-decoration: none;
       font-size: 1rem;
@@ -239,10 +239,12 @@
     }
     
     .popup-menu ul li {
+      cursor: pointer;
       margin: 60px 0;
     }
     
     .popup-menu ul li a {
+      cursor: pointer;
       color: white;
       font-size: 3.5rem;
       text-decoration: none;
@@ -267,10 +269,6 @@
       display: block;
       padding: 0px 50px 0px 0px;
       font-size: 2.5rem;
-    }
-  
-    .nav-links {
-      display: none;
     }
   
     .popup-overlay {
@@ -351,6 +349,7 @@
     }
     
     .nav-links li a {
+      cursor: pointer;
       color: white;
       text-decoration: none;
       font-size: 1.4rem;
@@ -382,10 +381,12 @@
     }
     
     .popup-menu ul li {
+      cursor: pointer;
       margin: 20px 0;
     }
     
     .popup-menu ul li a {
+      cursor: pointer;
       color: white;
       font-size: 1.5rem;
       text-decoration: none;
@@ -408,9 +409,6 @@
       display: none;
     }
   
-    .nav-links {
-      display: flex;
-    }
     html {
       scroll-behavior: smooth;
       scroll-padding-top: 80px; /* Adjust based on your navbar height */
@@ -484,8 +482,9 @@
       margin: 0;
       padding: 0px 50px 0px 0px;
     }
-    
+   
     .nav-links li a {
+      cursor: pointer;
       color: white;
       text-decoration: none;
       font-size: 1.4rem;
@@ -517,10 +516,12 @@
     }
     
     .popup-menu ul li {
+      cursor: pointer;
       margin: 20px 0;
     }
     
     .popup-menu ul li a {
+      cursor: pointer;
       color: white;
       font-size: 1.5rem;
       text-decoration: none;
@@ -543,9 +544,7 @@
       display: none;
     }
   
-    .nav-links {
-      display: flex;
-    }
+   
       
       html {
         scroll-behavior: smooth;
@@ -620,16 +619,34 @@
       margin: 0;
       padding: 0px 50px 0px 0px;
     }
-    
-    .nav-links li a {
+
+    .nav-links li {
+  cursor: pointer;
+}
+
+     .nav-links li a {
+      cursor: pointer;
       color: white;
       text-decoration: none;
       font-size: 1rem;
     }
     
-    .nav-links li a.active {
+    /* .nav-links button  {
+      background-color: #aa0946;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      border: none;
+    } */
+
+     .nav-links li a.active {
       border-bottom: 2px solid white;
     }
+    
+    /* .nav-links button a.active {
+      color: black;
+      border-bottom: 2px solid white;
+    } */
     
     /* POPUP MENU */
     .popup-overlay {
@@ -653,10 +670,12 @@
     }
     
     .popup-menu ul li {
+      cursor: pointer;
       margin: 20px 0;
     }
     
     .popup-menu ul li a {
+      cursor: pointer;
       color: white;
       font-size: 1.5rem;
       text-decoration: none;
@@ -679,9 +698,7 @@
       display: none;
     }
   
-    .nav-links {
-      display: flex;
-    }
+    
       
       html {
         scroll-behavior: smooth;

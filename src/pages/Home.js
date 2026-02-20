@@ -168,10 +168,10 @@ const iconMap = {
             <button onClick={() => window.location.href = "skills"}> Skills </button>
             <button onClick={() => window.location.href = "projects"}> Projects </button> */}
                       
-            <button><Link to="about" smooth={true} duration={500}>About</Link></button>
-            <button><Link to="contact" smooth={true} duration={500}>Contact</Link></button>
-            <button><Link to="skills" smooth={true} duration={500}>Skills</Link></button>
-            <button><Link to="projects" smooth={true} duration={500}>Projects</Link></button>
+            <button><Link to="about" smooth={true} duration={100}>About</Link></button>
+            <button><Link to="contact" smooth={true} duration={100}>Contact</Link></button>
+            <button><Link to="skills" smooth={true} duration={100}>Skills</Link></button>
+            <button><Link to="projects" smooth={true} duration={100}>Projects</Link></button>
 
         </div>
         
@@ -219,10 +219,10 @@ const iconMap = {
 
         <div className="btn_3 fade-in-right">
                     {/* Button */}
-          <button><Link to="home" smooth={true} duration={500}>Home</Link></button>
-          <button><Link to="contact" smooth={true} duration={500}>Contact</Link></button>
-          <button><Link to="skills" smooth={true} duration={500}>Skills</Link></button>
-          <button><Link to="projects" smooth={true} duration={500}>Projects</Link></button>
+          <button><Link to="home" smooth={true} duration={100}>Home</Link></button>
+          <button><Link to="contact" smooth={true} duration={100}>Contact</Link></button>
+          <button><Link to="skills" smooth={true} duration={100}>Skills</Link></button>
+          <button><Link to="projects" smooth={true} duration={100}>Projects</Link></button>
         </div>
     </div>
   </section>
@@ -296,10 +296,10 @@ const iconMap = {
 
       <div className="btn_5 ">
         {/* Button */}
-        <button><Link to="home" smooth={true} duration={500}>Home</Link></button>
-        <button><Link to="about" smooth={true} duration={500}>About</Link></button>
-        <button><Link to="skills" smooth={true} duration={500}>Skills</Link></button>
-        <button><Link to="projects" smooth={true} duration={500}>Projects</Link></button>
+        <button><Link to="home" smooth={true} duration={100}>Home</Link></button>
+        <button><Link to="about" smooth={true} duration={100}>About</Link></button>
+        <button><Link to="skills" smooth={true} duration={100}>Skills</Link></button>
+        <button><Link to="projects" smooth={true} duration={100}>Projects</Link></button>
       </div>
 
     </div>
@@ -356,10 +356,10 @@ const iconMap = {
 
       <div className="btn_6 ">
           {/* Button */}
-          <button><Link to="home" smooth={true} duration={500}>Home</Link></button>
-          <button><Link to="about" smooth={true} duration={500}>About</Link></button>
-          <button><Link to="contact" smooth={true} duration={500}>Contact</Link></button>
-          <button><Link to="projects" smooth={true} duration={500}>Projects</Link></button>
+          <button><Link to="home" smooth={true} duration={100}>Home</Link></button>
+          <button><Link to="about" smooth={true} duration={100}>About</Link></button>
+          <button><Link to="contact" smooth={true} duration={100}>Contact</Link></button>
+          <button><Link to="projects" smooth={true} duration={100}>Projects</Link></button>
       </div>
 
     </div>
@@ -411,10 +411,10 @@ const iconMap = {
 
       <div className="btn_7 ">
           {/* Button */}
-            <button><Link to="home" smooth={true} duration={500}>Home</Link></button>
-            <button><Link to="about" smooth={true} duration={500}>About</Link></button>
-            <button><Link to="contact" smooth={true} duration={500}>Contact</Link></button>
-            <button><Link to="skills" smooth={true} duration={500}>Skills</Link></button>
+            <button><Link to="home" smooth={true} duration={100}>Home</Link></button>
+            <button><Link to="about" smooth={true} duration={100}>About</Link></button>
+            <button><Link to="contact" smooth={true} duration={100}>Contact</Link></button>
+            <button><Link to="skills" smooth={true} duration={100}>Skills</Link></button>
       </div>
 
 
