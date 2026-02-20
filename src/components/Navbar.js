@@ -49,7 +49,7 @@ function Navbar() {
        <a href="https://github.com/TarunaAsthana23" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} size="lg" alt="GitHub"/>
         </a>
-        <a href="https://www.linkedin.com/in/pragyaasthana/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/tarunaasthana" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="lg" alt="LinkedIn" />
         </a>
         {/* <a href="https://your-portfolio.com" target="_blank" rel="noreferrer"> */}

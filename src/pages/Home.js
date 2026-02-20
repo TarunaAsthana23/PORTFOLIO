@@ -267,7 +267,7 @@ const iconMap = {
         <div className="social-icons">
 
           <div className="icon_1">     
-            <a href="https://www.linkedin.com/in/pragyaasthana/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/tarunaasthana" target="_blank" rel="noreferrer">
               <FaLinkedin className="icon" />
             </a>
             <a href="mailto:hiyasrivastava777@gmail.com" target="_blank" rel="noreferrer">

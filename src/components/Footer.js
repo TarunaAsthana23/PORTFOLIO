@@ -22,7 +22,7 @@ function Footer() {
             <FontAwesomeIcon icon={faGithub} /> 
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/pragyaasthana/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/tarunaasthana" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} /> 
             LinkedIn
           </a>
