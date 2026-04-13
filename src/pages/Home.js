@@ -204,12 +204,12 @@ const iconMap = {
             
               <div className="btn_2 fade-in-right">
                   {/* Preview CV */}
-                <button onClick={() => window.open("/Set/Resume/ATaruna Asthana.pdf.pdf", "_blank")}>
+                <button onClick={() => window.open("/Set/Resume/Asthana.pdf", "_blank")}>
                   Preview CV
                 </button>
 
                   {/* Download CV */}
-                <a href="/Set/Resume/ATaruna Asthana.pdf.pdf" download>
+                <a href="/Set/Resume/Asthana.pdf" download>
                   <button>Download CV</button>
                 </a>
               </div>
